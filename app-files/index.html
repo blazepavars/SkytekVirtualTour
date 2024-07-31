@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-skytek-lobby">
+        <li class="text">Skytek Lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-skytek-reception">
+        <li class="text">Skytek Reception</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-skytek-reception-west-wing">
+        <li class="text">Skytek Reception West Wing</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-skytek-receptionist-east-wing">
+        <li class="text">Skytek Receptionist East Wing</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-skytek-inner-west-wing">
+        <li class="text">Skytek Inner West Wing</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-skytek-west-south-wing-beginning">
+        <li class="text">Skytek West South Wing Beginning</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-skytek-kitchen">
+        <li class="text">Skytek Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-skytek-west-south-wing-middle">
+        <li class="text">Skytek West South Wing Middle</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-skytek-west-south-corner">
+        <li class="text">Skytek West South Corner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-skytek-outer-west-wing-12">
+        <li class="text">Skytek Outer West Wing 1/2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-skytek-outer-west-wing-22">
+        <li class="text">Skytek Outer West Wing 2/2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-skytek-west-north-corner">
+        <li class="text">Skytek West North Corner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-skytek-west-north-wing-middle-12">
+        <li class="text">Skytek West North Wing Middle 1/2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-skytek-west-north-middle-22">
+        <li class="text">Skytek West North Middle 2/2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-skytek-inner-west-wing-north">
+        <li class="text">Skytek Inner West Wing North</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-skytek-inner-west-wing-south">
+        <li class="text">Skytek Inner West Wing South</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-skytek-emerald-room">
+        <li class="text">Skytek Emerald Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-skytek-north-middle-wing">
+        <li class="text">Skytek North Middle Wing</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-skytek-cafeteria-seating-area">
+        <li class="text">Skytek Cafeteria Seating Area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-skytek-cafeteria-countertop">
+        <li class="text">Skytek Cafeteria Countertop</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-skytek-east-north-middle-wing-12">
+        <li class="text">Skytek East North Middle Wing 1/2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-skytek-east-north-middle-wing-22">
+        <li class="text">Skytek East North Middle Wing 2/2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-skytek-east-north-corner">
+        <li class="text">Skytek East North Corner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-skytek-outer-east-wing-12">
+        <li class="text">Skytek Outer East Wing 1/2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-skytek-outer-east-wing-22">
+        <li class="text">Skytek Outer East Wing 2/2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-skytek-outer-east-t-junction">
+        <li class="text">Skytek Outer East T-Junction</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-skytek-east-south-corner-right">
+        <li class="text">Skytek East South Corner (Right)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-skytek-east-south-wing-middle">
+        <li class="text">Skytek East South Wing Middle</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-skytek-east-south-corner-left">
+        <li class="text">Skytek East South Corner (Left)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-skytek-sapphire-room-entrance">
+        <li class="text">Skytek Sapphire Room Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-skytek-sapphire-room">
+        <li class="text">Skytek Sapphire Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-skytek-inner-east-south-wing-12">
+        <li class="text">Skytek Inner East South Wing 1/2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-skytek-east-south-wing-t-junction">
+        <li class="text">Skytek East South Wing T-Junction</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-skytek-copy-room">
+        <li class="text">Skytek Copy Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-skytek-inner-east-wing-beginning">
+        <li class="text">Skytek Inner East Wing Beginning</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-skytek-inner-east-wing-end">
+        <li class="text">Skytek Inner East Wing End</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-skytek-office-suite-3">
+        <li class="text">Skytek Office Suite #3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-skytek-mens-washroom-entrance">
+        <li class="text">Skytek Men&#39;s Washroom Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-skytek-emergency-exit-entrance">
+        <li class="text">Skytek Emergency Exit Entrance</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
